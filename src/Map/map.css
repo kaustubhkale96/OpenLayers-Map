@@ -1,0 +1,47 @@
+.ol-overlaycontainer-stopevent{
+    display: flex;
+    justify-content: space-between;
+}
+.ol-control{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.ol-control button{
+    margin: 5px;
+    width: 30px;
+    height: 35px;
+    background-color: rgb(102, 175, 224);
+    opacity: 0.8;
+    border: none;
+    border-radius: 8px;
+}
+.ol-rotate{
+    display: none;
+}
+.ol-attribution button{
+    display: none;
+}
+.ol-attribution ul{
+    margin: 0;
+}
+.map-container{
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid ;
+    height: 650px;
+}
+.map{
+    width: 100%;
+    height: inherit;
+}
+.blue-circle{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 15px;
+    background-color: rgb(224, 55, 55);
+    opacity: 0.5;
+    z-index: 10;
+}
